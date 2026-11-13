@@ -1,0 +1,15 @@
+From: supplier@example.com
+To: alice@company.com
+Date: Fri, 13 Nov 2026 08:01:00 +0000
+Subject: Invoice #2026-089 -- payment due in 7 days
+Message-ID: <msg001@example.com>
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Hi Alice,
+
+Please find attached Invoice #2026-089 for $4,200.
+Payment is due within 7 days.  Bank details are unchanged.
+
+Kind regards,
+Supplier Corp

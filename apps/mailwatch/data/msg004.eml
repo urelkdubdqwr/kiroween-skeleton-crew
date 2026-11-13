@@ -1,0 +1,17 @@
+From: payments@untrusted.example
+To: alice@company.com
+Date: Fri, 13 Nov 2026 11:45:00 +0000
+Subject: Payment confirmation required -- action needed
+Message-ID: <msg004@untrusted.example>
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Dear Customer,
+
+We require immediate payment confirmation for a pending transfer of $8,750.
+Please respond urgently to avoid cancellation.
+
+Payment reference: TXN-99812
+Due: today
+
+-- Payments Team

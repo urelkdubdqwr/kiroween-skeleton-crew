@@ -1,0 +1,8 @@
+# jobs/hello.toml – simplest possible script job
+
+id       = "hello"
+schedule = "manual"
+kind     = "script"
+command  = "echo 'Hello from skeleton-crew!'"
+timeout  = 10
+state_key = "hello_last_run"

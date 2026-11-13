@@ -1,0 +1,36 @@
+# apps/mailwatch/config.toml – keyword config for mailwatch
+
+mail_dir = "apps/mailwatch/data"
+
+# Keywords scored by urgency weight (higher = more urgent)
+[[keywords]]
+word   = "urgent"
+weight = 10
+
+[[keywords]]
+word   = "invoice"
+weight = 7
+
+[[keywords]]
+word   = "payment"
+weight = 7
+
+[[keywords]]
+word   = "overdue"
+weight = 9
+
+[[keywords]]
+word   = "escalation"
+weight = 8
+
+[[keywords]]
+word   = "action needed"
+weight = 6
+
+[[keywords]]
+word   = "immediately"
+weight = 5
+
+[[keywords]]
+word   = "due today"
+weight = 8

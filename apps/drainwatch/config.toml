@@ -1,0 +1,15 @@
+# apps/drainwatch/config.toml – thresholds for on-chain outflow monitoring
+
+data_dir = "apps/drainwatch/data"
+
+# Transfers exceeding this ETH amount are always flagged regardless of stats
+hard_threshold_eth = 50.0
+
+# Statistical anomaly: flag if amount > mean + (sigma_multiplier * stddev)
+sigma_multiplier = 2.5
+
+# Alert level rules (thresholds in ETH)
+[alert_levels]
+critical = 100.0
+high     = 50.0
+medium   = 20.0

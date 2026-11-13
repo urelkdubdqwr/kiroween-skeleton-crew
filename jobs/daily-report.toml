@@ -1,0 +1,12 @@
+# jobs/daily-report.toml – LLM-powered daily digest (daily at 08:00)
+# Requires SKELETON_API_KEY env var or skeleton_crew.toml [provider] config.
+
+id       = "daily-report"
+schedule = "08:00"
+kind     = "llm"
+prompt   = "Summarise the top 3 things an on-call engineer should check today."
+timeout  = 60
+state_key = "daily_report_last_run"
+
+# Optional: override model per-job
+# model = "gpt-4o-mini"

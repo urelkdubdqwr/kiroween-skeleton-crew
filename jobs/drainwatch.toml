@@ -1,0 +1,8 @@
+# jobs/drainwatch.toml – flag abnormal on-chain outflows (hourly)
+
+id       = "drainwatch"
+schedule = "hourly"
+kind     = "script"
+command  = "python apps/drainwatch/run.py"
+timeout  = 30
+state_key = "drainwatch_last_run"

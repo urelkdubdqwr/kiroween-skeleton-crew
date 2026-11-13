@@ -1,0 +1,8 @@
+# jobs/mailwatch.toml – scan maildir for keyword-matching messages (daily)
+
+id       = "mailwatch"
+schedule = "daily"
+kind     = "script"
+command  = "python apps/mailwatch/run.py"
+timeout  = 30
+state_key = "mailwatch_last_run"

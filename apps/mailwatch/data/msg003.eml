@@ -1,0 +1,16 @@
+From: newsletter@techblog.example
+To: alice@company.com
+Date: Fri, 13 Nov 2026 10:00:00 +0000
+Subject: Weekly Tech Digest -- Python 3.14, Rust 2.0 and more
+Message-ID: <msg003@techblog.example>
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Good morning!
+
+Here is your weekly tech digest.  Top stories this week:
+- Python 3.14 release candidate out now
+- Rust 2.0 edition announced
+- WebAssembly gains 64-bit memory
+
+Unsubscribe | View in browser

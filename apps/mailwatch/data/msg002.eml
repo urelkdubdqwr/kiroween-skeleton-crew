@@ -1,0 +1,17 @@
+From: cfo@vendor.example
+To: alice@company.com
+Date: Fri, 13 Nov 2026 09:15:22 +0000
+Subject: URGENT: overdue invoice #2026-071 -- escalation notice
+Message-ID: <msg002@vendor.example>
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Alice,
+
+Invoice #2026-071 is now 30 days overdue ($12,500).
+We need urgent payment to avoid suspension of service.
+
+This is an escalation notice.
+
+Regards,
+Vendor Finance
